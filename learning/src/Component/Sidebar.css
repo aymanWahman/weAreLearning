@@ -1,0 +1,11 @@
+
+.sidebar {
+  width: 140px;
+  /* height: 100vh; */
+  background-color: #3d4a59;
+  /* overflow-y: scroll; */
+  color: #fff;
+  border-radius: 17px;
+  /* border: 1px solid #faebd7; */
+  padding-top: 10px;
+}
