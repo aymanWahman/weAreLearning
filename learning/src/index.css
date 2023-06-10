@@ -48,18 +48,47 @@ h4 {
   color: #460b3c;
   text-align: center;
 }
-p{
+
+/* mainContent */
+
+.table{
+  border: 5px solid #3f5d7e;
+  width: 99%;
+  margin: auto;
+  font-weight:800px;
   text-align: center;
-  padding: 10px;
-  margin: auto;  
-  color: #232943;
+}
+th{
+  color: #913564;
+  font-size: 1.2rem;
+  
+}
+td{
+  color: #0a0a3f;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
-.p{
-  border-radius: 17px;
-  color: #fff;
-  background-color: #3d4a59;;
+.section {
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 25px rgb(179, 172, 172);
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px;
+  padding: 6px 0;  
+  display: flex;
+  justify-content: center;
 }
+
+
+
+.button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
 
 .my-img {
   width: 120px;
@@ -70,7 +99,9 @@ p{
   border-bottom: 2px solid #fd5a96e2;
   border-top: 2px solid #fd5a96e2;
 }
-
+/* .imgC{
+  background-image: url(https://res.cloudinary.com/dktod7mod/image/upload/v1686362614/Ayman_dbltmd.jpg);
+} */
 
 .facebook,
 .youtube{

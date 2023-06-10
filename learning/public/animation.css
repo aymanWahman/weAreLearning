@@ -16,6 +16,9 @@ header {
   animation: down 1s 1;
 }
 
+.ani{
+  animation: move 3s 1 ,ltr 4s 1;
+}
 .logo {
   animation: ltr 2s 1;
 }

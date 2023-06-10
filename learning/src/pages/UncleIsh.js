@@ -5,7 +5,7 @@ import Footer from "../Component/Footer";
 const UncleIsh = () => {
   return (
     <>
-      <Header />
+      <Header title=" with Uncle Ish"/>
       
         <div className="row section">
           <div className="col-2 sidebar m-2">

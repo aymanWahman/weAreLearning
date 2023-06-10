@@ -7,7 +7,7 @@ const UncleRy = () => {
   const navigate = useNavigate();
   return (
     <>
-    <Header />
+    <Header title=" with Uncle Ry"/>
     <div className='section bg-secondary'>
     <h2>
     <img className="my-img m-4"  src={require('../Image/uncleRyImg.jpg')} alt="We're learning"/>

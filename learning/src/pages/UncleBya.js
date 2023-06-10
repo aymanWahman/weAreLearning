@@ -1,7 +1,6 @@
 
 import Header from '../Component/Header';
 
-// import MainContent from '../Component/MainContent';
 import Footer from '../Component/Footer';
 
 
@@ -9,7 +8,7 @@ import Footer from '../Component/Footer';
 const UncleBya = () => {
   return (
     <>
-    <Header />
+    <Header title=" with Uncle Bya" />
     
     <div>
       

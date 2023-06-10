@@ -1,52 +1,54 @@
-{
-  "Letter":[ 
+
+
+const Data = [ 
   {
   "id":1,
   "Letter": "Aa",
   "Word": "Apple",
-  "Photo": "C:\weAreLearning\learning\src\Image\apple.jpg",
+  "Photo": "../Image/apple.jpg",
   "Sentence": "I want an apple."
 },
 {
   "id":2,
   "Letter": "Bb",
   "Word": "Book",
-  "Photo": "C:\weAreLearning\learning\src\Image\bookB.jpg",
+  "Photo": "bookB.jpg",
   "Sentence": "I read my book."
 },
 {
   "id":3,
   "Letter": "Cc",
   "Word": "Cat",
-  "Photo": "C:\weAreLearning\learning\src\Image\cat.jpg",
+  "Photo": "cat.jpg",
   "Sentence": "I like your cat."
 },
 {
   "id":4,
   "Letter": "Dd",
   "Word": "Dog",
-  "Photo": "C:\weAreLearning\learning\src\Image\dog.jpg",
+  "Photo": "dog.jpg",
   "Sentence": "This is a cute dog."
 },
 {
   "id":5,
   "Letter": "Ee",
   "Word": "Egg",
-  "Photo": "C:\weAreLearning\learning\src\Image\egg.png",
+  "Photo": "egg.png",
   "Sentence": "This is an egg."
 },
 {
   "id":6,
   "Letter": "Ff",
   "Word": "Fish",
-  "Photo": "C:\weAreLearning\learning\src\Image\fish.jpg",
+  "Photo": "fish.jpg",
   "Sentence": "This is a cute dog."
 },
 {
   "id":7,
   "Letter": "Gg",
   "Word": "Goat",
-  "Photo": "C:\weAreLearning\learning\src\Image\goat.jpg",
+  "Photo": "goat.jpg",
   "Sentence": "This is a goat."
 }]
-}
+
+export default Data;

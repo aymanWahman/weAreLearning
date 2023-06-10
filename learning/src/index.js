@@ -8,7 +8,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages/home";
 import UncleBya from "./pages/UncleBya";
-import UncleAshr from "./pages/UncleAshr";
 import UncleIsh from "./pages/UncleIsh";
 import UncleRy from "./pages/UncleRy";
 import Life from "./pages/Life.js";
@@ -26,11 +25,6 @@ const router = createBrowserRouter([
   {
     path: "/UncleBya",
     element: <UncleBya />,
-  },
-
-  {
-    path: "/UncleAshr",
-    element: <UncleAshr />,
   },
   {
     path: "/UncleIsh",

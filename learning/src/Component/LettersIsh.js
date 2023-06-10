@@ -2,13 +2,12 @@ const LettersIsh = () => {
   return (
     <>
     
-    <div className="flex">
-          
-            <h3>A sentence is a group of words</h3>
-            
-            <p>The word is a noun, verb, or letter</p>
-            <article className='section'>
-            {/* <caption >The letters</caption> */}
+     <div>  
+        <h3>A sentence is a group of words</h3>
+        
+        <p className='ms-5 ani '>The word is a noun, verb, or letter</p>
+
+        <div className='section'>
           
             <table className='table '>
               <thead>
@@ -58,7 +57,7 @@ const LettersIsh = () => {
                   </tr>
               </tbody>
             </table>
-          </article>
+          </div>
     </div>
     
     </>
